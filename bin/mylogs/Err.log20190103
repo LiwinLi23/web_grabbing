@@ -1,0 +1,76 @@
+[INFO]2019-01-03 09:44:35,320 [Err] log创建成功。。。。。
+[INFO]2019-01-03 09:44:35,321 [Err] insert into tFansLog(dtinsert,splatform,inum,imoney,iaddnum,iaddmoney,icollection)values('“订阅内容”Feed','YouTube',-265,0,-265,0,0)
+[INFO]2019-01-03 09:44:35,322 [Err] 从字符串转换日期和/或时间时，转换失败。
+[INFO]2019-01-03 09:48:18,332 [Err] log创建成功。。。。。
+[INFO]2019-01-03 09:48:18,333 [Err] insert into tFansLog(dtinsert,splatform,inum,imoney,iaddnum,iaddmoney,icollection)values('“订阅内容”Feed','YouTube',-265,0,-265,0,0)
+[INFO]2019-01-03 09:48:18,333 [Err] 从字符串转换日期和/或时间时，转换失败。
+[INFO]2019-01-03 10:01:56,546 [Err] log创建成功。。。。。
+[INFO]2019-01-03 10:01:56,546 [Err] insert into tFansLog(dtinsert,splatform,inum,imoney,iaddnum,iaddmoney,icollection)values('“订阅内容”Feed','YouTube',-265,0,-265,0,0)
+[INFO]2019-01-03 10:01:56,546 [Err] 从字符串转换日期和/或时间时，转换失败。
+[INFO]2019-01-03 11:40:29,664 [Err] log创建成功。。。。。
+[INFO]2019-01-03 11:40:29,664 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','2018小伶年度金曲榜單！一起回顧2018的人氣歌謠吧！小伶玩具 | Xiaoling toys','',36792,36792,1,256)
+[INFO]2019-01-03 11:40:29,664 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:40:31,170 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','狗狗上幼兒園了？汪星人也逃不過升學壓力！小伶玩具 | Xiaoling toys','',154227,154227,1,461)
+[INFO]2019-01-03 11:40:31,170 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:40:31,942 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','超夢幻的校園食堂午餐搭配！幸運轉盤美食拼盤！小伶玩具 | Xiaoling toys','',149273,149273,1,823)
+[INFO]2019-01-03 11:40:31,943 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:40:32,240 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','心電感應奶昔制作挑戰賽！到底能不能做出一樣的奶昔呢？小伶玩具 | Xiaoling toys','',142278,142278,1,427)
+[INFO]2019-01-03 11:40:32,240 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:40:33,033 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','粘土裝飾DIY咖啡廳！幸運旋轉轉盤做出最美粘土吧！ | Xiaoling toys','',201987,201987,2,489)
+[INFO]2019-01-03 11:40:33,033 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:40:35,430 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','自制超大小伶玩具版洞洞樂啦！內含秘密任務一起來完成吧！小伶玩具 | Xiaoling toys','',116112,116112,1,433)
+[INFO]2019-01-03 11:40:35,430 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:40:42,855 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','三色挑戰之用三種顔色制作手機殼DIY啦！小伶玩具 | Xiaoling toys','',148628,148628,2,173)
+[INFO]2019-01-03 11:40:42,855 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:40:43,188 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','最佳發型師比賽！誰做的發型是宇宙最美？小伶玩具 | Xiaoling toys','',133658,133658,2,367)
+[INFO]2019-01-03 11:40:43,188 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:40:43,520 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','夏坤姐弟之最佳吃面美食搭配！誰做的拉面更好吃呢？小伶玩具 | Xiaoling toys','',121000,121000,1,021)
+[INFO]2019-01-03 11:40:43,520 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:40:46,214 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','24小時三餐巧克力噴泉挑戰！蔬菜巧克力糖葫蘆是什麽味道？小伶玩具 | Xiaoling toys','',113008,113008,1,092)
+[INFO]2019-01-03 11:40:46,214 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:40:46,835 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','噴上香水就變公主？珠珠的秘密魔法香水！小伶玩具 | Xiaoling toys','',131833,131833,1,223)
+[INFO]2019-01-03 11:40:46,835 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:40:48,315 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','夏坤姐弟爭奪上鋪比賽！誰最終能搶到夢想的上鋪呢？小伶玩具 | Xiaoling toys','',189036,189036,1,152)
+[INFO]2019-01-03 11:40:48,315 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:40:49,518 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','幸運轉盤挑戰可以吃的冰凍黏土！誰能成功製作糖果史萊姆？小伶玩具 | Xiaoling toys','',322776,322776,2,362)
+[INFO]2019-01-03 11:40:49,518 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:40:50,225 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','小伶變成了小嬰兒！巨型嬰兒用品玩具一起玩！小伶玩具 | Xiaoling toys','',242679,242679,1,006)
+[INFO]2019-01-03 11:40:50,225 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:41:07,938 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','誰是吃貨演技王，伶可吃貨們能不能瞞天過海呢？小伶玩具 | Xiaoling toys','',167156,167156,1,232)
+[INFO]2019-01-03 11:41:07,938 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:41:08,975 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','用軟糖也可以做出龍鬚糖嗎？一起手工DIY挑戰吧！小伶玩具 | Xiaoling toys','',186359,186359,2,223)
+[INFO]2019-01-03 11:41:08,975 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:41:09,609 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','夏天帶狗狗去挑戰游泳啦！汪星人天生就會游泳嗎？小伶玩具 | Xiaoling toys','',153378,153378,1,319)
+[INFO]2019-01-03 11:41:09,609 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:41:10,232 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','开学特辑之三色挑战新学期学习用品购物啦！小伶玩具 | Xiaoling toys','',776672,776672,6,434)
+[INFO]2019-01-03 11:41:10,233 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:41:10,549 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','開學特輯之伶可家族小豆子樂隊演奏團來啦！小伶玩具 | Xiaoling toys','',146833,146833,1,069)
+[INFO]2019-01-03 11:41:10,550 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:41:10,868 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','小伶推理之小伶的急救處方！小伶玩具 | Xiaoling toys','',427881,427881,1,546)
+[INFO]2019-01-03 11:41:10,869 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:41:11,506 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','換裝遊戲第二彈！幫公主挑選最美的婚紗禮服吧！小伶玩具 | Xiaoling toys','',96740,96740,1,443)
+[INFO]2019-01-03 11:41:11,506 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:41:12,112 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','隨機幸運轉盤鐵板冰淇淋機！有香蕉還有番茄醬！小伶玩具 | Xiaoling toys','',250048,250048,1,960)
+[INFO]2019-01-03 11:41:12,112 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:41:12,441 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','66種口味冰淇淋吃吃看！小伶玩具 | Xiaoling toys','',156673,156673,1,274)
+[INFO]2019-01-03 11:41:12,441 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:41:12,778 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','葉羅麗開箱第三彈！為精靈們挑選最美的派對服裝吧！小伶玩具 | Xiaoling toys','',75708,75708,1,418)
+[INFO]2019-01-03 11:41:12,778 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:41:13,388 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','123木頭人之吃西瓜版本！誰是真正的速度吃貨呢？小伶玩具 | Xiaoling toys','',404115,404115,2,611)
+[INFO]2019-01-03 11:41:13,388 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:41:14,016 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','千萬別說這些詞之水槍懲罰版！小伶玩具 | Xiaoling toys','',193335,193335,1,645)
+[INFO]2019-01-03 11:41:14,017 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:41:14,906 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','芭比救護車出動啦！一起和芭比救助病人吧！小伶玩具 | Xiaoling toys','',285063,285063,1,188)
+[INFO]2019-01-03 11:41:14,906 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:41:15,531 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','到底是化妝品糖果呢還是迪士尼化妝品玩具呢？小伶玩具 | Xiaoling toys','',886149,886149,5,955)
+[INFO]2019-01-03 11:41:15,531 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 11:41:16,415 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-03','YouTube','夏日涼爽定時水炸彈桌遊玩具！誰會成為落湯雞呢？小伶玩具 | Xiaoling toys','',186710,186710,1,092)
+[INFO]2019-01-03 11:41:16,415 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-03 13:47:05,316 [Err] log创建成功。。。。。
+[INFO]2019-01-03 13:47:05,316 [Err] update tvideo  set iplaynum='307883' where splatform='YouTube' and sname ='秋季露營美食之烤棉花糖夾心餅乾S'MORE！創意美食料理DIY又來了！小伶玩具 | Xiaoling toys'
+[INFO]2019-01-03 13:47:05,316 [Err] 'MORE' 附近有语法错误。
+[INFO]2019-01-03 13:47:05,498 [Err] java.lang.NullPointerException
+	at web.grabbing.dao_grabbing.set_alone_video(dao_grabbing.java:72)
+	at web.grabbing.moni_youtube.spfx(moni_youtube.java:350)
+	at web.grabbing.moni_youtube.main(moni_youtube.java:536)
+

@@ -1,0 +1,3 @@
+[INFO]2019-01-14 17:49:13,192 [Err] log创建成功。。。。。
+[INFO]2019-01-14 17:49:13,193 [Err] update tFansLog set splatform='腾讯' ,imoney=3,720,082.18 where splatform='腾讯' and convert(VARCHAR(10),dtinsert,120) ='2019-01-14'
+[INFO]2019-01-14 17:49:13,193 [Err] '720' 附近有语法错误。

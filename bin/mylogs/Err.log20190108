@@ -1,0 +1,33 @@
+[INFO]2019-01-08 14:48:56,716 [Err] log创建成功。。。。。
+[INFO]2019-01-08 14:48:56,717 [Err] java.lang.NullPointerException
+	at web.grabbing.moni_tenxun.spfx(moni_tenxun.java:269)
+	at web.grabbing.moni_tenxun.Seach(moni_tenxun.java:494)
+	at main.job_thread.run(job_thread.java:37)
+
+[INFO]2019-01-08 15:11:21,530 [Err] log创建成功。。。。。
+[INFO]2019-01-08 15:11:21,530 [Err] org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:22.379Z'
+System info: host: 'TAOTAO', ip: '169.254.170.190', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 71.0.3578.33 (269aa0e3f0db0..., userDataDir: C:\Users\taohuosheng\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56772}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 6f5d00692db3e1759bdfa1759157c706
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at web.grabbing.moni_aiqiyi1.spfx(moni_aiqiyi1.java:207)
+	at web.grabbing.moni_aiqiyi1.main(Unknown Source)
+

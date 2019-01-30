@@ -1,0 +1,158 @@
+[INFO]2019-01-10 09:19:24,543 [Err] log创建成功。。。。。
+[INFO]2019-01-10 09:19:24,544 [Err] org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:22.379Z'
+System info: host: 'TAOTAO', ip: '192.168.1.141', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 71.0.3578.33 (269aa0e3f0db0..., userDataDir: C:\Users\taohuosheng\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56181}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 54f94250c464c804aa62a578ec4895a8
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
+	at web.grabbing.moni_youtube.<init>(moni_youtube.java:82)
+	at web.grabbing.moni_youtube.Seach(moni_youtube.java:571)
+	at main.main_grabbing.doall(main_grabbing.java:263)
+	at main.main_grabbing.main(main_grabbing.java:241)
+
+[INFO]2019-01-10 09:19:48,733 [Err] java.lang.NullPointerException
+	at web.grabbing.moni_youtube.spfx(moni_youtube.java:286)
+	at web.grabbing.moni_youtube.Seach(moni_youtube.java:572)
+	at main.main_grabbing.doall(main_grabbing.java:263)
+	at main.main_grabbing.main(main_grabbing.java:241)
+
+[INFO]2019-01-10 09:21:05,525 [Err] log创建成功。。。。。
+[INFO]2019-01-10 09:21:05,525 [Err] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='appEntry']/div/div[2]/section/div/div[2]/div/div[6]/div/div/div/a[6]"}
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:22.379Z'
+System info: host: 'TAOTAO', ip: '192.168.1.141', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 71.0.3578.33 (269aa0e3f0db0..., userDataDir: C:\Users\taohuosheng\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56302}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 89e87a60bb5c2626f43e17608e550d4c
+*** Element info: {Using=xpath, value=//*[@id='appEntry']/div/div[2]/section/div/div[2]/div/div[6]/div/div/div/a[6]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at web.grabbing.moni_aiqiyi1.spfxex(moni_aiqiyi1.java:209)
+	at web.grabbing.moni_aiqiyi1.Seach(moni_aiqiyi1.java:509)
+	at main.job_thread.run(job_thread.java:31)
+
+[INFO]2019-01-10 09:27:19,081 [Err] log创建成功。。。。。
+[INFO]2019-01-10 09:27:19,082 [Err] org.openqa.selenium.WebDriverException: unknown error: Element <a href="javascript:;" class="a1">...</a> is not clickable at point (1361, 774). Other element would receive the click: <div class="videoList-wrapper clearfix videoList-profession">...</div>
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:22.379Z'
+System info: host: 'TAOTAO', ip: '192.168.1.141', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 71.0.3578.33 (269aa0e3f0db0..., userDataDir: C:\Users\taohuosheng\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56499}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 8a439fc67223461083f0ee90d6e9ff51
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at web.grabbing.moni_aiqiyi1.spfxex(moni_aiqiyi1.java:253)
+	at web.grabbing.moni_aiqiyi1.Seach(moni_aiqiyi1.java:510)
+	at main.job_thread.run(job_thread.java:31)
+
+[INFO]2019-01-10 09:28:17,717 [Err] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='appEntry']/div/div[2]/section/div/div[2]/div/div[6]/div/div/div/a[6]"}
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:22.379Z'
+System info: host: 'TAOTAO', ip: '192.168.1.141', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 71.0.3578.33 (269aa0e3f0db0..., userDataDir: C:\Users\taohuosheng\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57017}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 187c310fb2a5efdedaeabccbdda25489
+*** Element info: {Using=xpath, value=//*[@id='appEntry']/div/div[2]/section/div/div[2]/div/div[6]/div/div/div/a[6]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at web.grabbing.moni_aiqiyi1.spfxex(moni_aiqiyi1.java:210)
+	at web.grabbing.moni_aiqiyi1.Seach(moni_aiqiyi1.java:510)
+	at main.job_thread.run(job_thread.java:31)
+
+[INFO]2019-01-10 09:47:28,033 [Err] log创建成功。。。。。
+[INFO]2019-01-10 09:47:28,033 [Err] java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at web.grabbing.moni_dayu.spfx(moni_dayu.java:300)
+	at web.grabbing.moni_dayu.Seach(moni_dayu.java:567)
+	at main.job_thread.run(job_thread.java:34)
+
+[INFO]2019-01-10 09:48:09,730 [Err] java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at web.grabbing.moni_dayu.spfx(moni_dayu.java:300)
+	at web.grabbing.moni_dayu.Seach(moni_dayu.java:567)
+	at main.job_thread.run(job_thread.java:34)
+
+[INFO]2019-01-10 09:48:54,967 [Err] java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at web.grabbing.moni_dayu.spfx(moni_dayu.java:300)
+	at web.grabbing.moni_dayu.Seach(moni_dayu.java:567)
+	at main.job_thread.run(job_thread.java:34)
+
+[INFO]2019-01-10 10:30:28,924 [Err] log创建成功。。。。。
+[INFO]2019-01-10 10:30:28,924 [Err] java.lang.NullPointerException
+	at web.grabbing.moni_toutiao.spfx(moni_toutiao.java:349)
+	at web.grabbing.moni_toutiao.Seach(moni_toutiao.java:590)
+	at main.job_thread.run(job_thread.java:49)
+
+[INFO]2019-01-10 10:31:08,663 [Err] java.lang.NullPointerException
+	at web.grabbing.moni_toutiao.spfx(moni_toutiao.java:349)
+	at web.grabbing.moni_toutiao.Seach(moni_toutiao.java:590)
+	at main.job_thread.run(job_thread.java:49)
+

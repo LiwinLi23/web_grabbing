@@ -1,0 +1,50 @@
+[INFO]2018-12-23 11:15:48,044 [Err] log创建成功。。。。。
+[INFO]2018-12-23 11:15:48,045 [Err] java.lang.NullPointerException
+	at web.grabbing.moni_miaopai.spfx(moni_miaopai.java:272)
+	at web.grabbing.moni_miaopai.main(moni_miaopai.java:413)
+
+[INFO]2018-12-23 11:33:46,218 [Err] log创建成功。。。。。
+[INFO]2018-12-23 11:33:46,218 [Err] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:56:06.3Z'
+System info: host: 'TAOTAO', ip: '192.168.3.178', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:425)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at web.grabbing.moni_toutiao.cheaklogin(moni_toutiao.java:243)
+	at web.grabbing.moni_toutiao.main(moni_toutiao.java:436)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at okio.Okio$2.read(Okio.java:139)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:237)
+	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:345)
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:217)
+	at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:212)
+	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:97)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:47)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:157)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	... 7 more
+

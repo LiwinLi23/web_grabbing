@@ -1,0 +1,119 @@
+[INFO]2019-01-04 17:12:35,120 [Err] log创建成功。。。。。
+[INFO]2019-01-04 17:12:35,122 [Err] org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:22.379Z'
+System info: host: 'TAOTAO', ip: '169.254.170.190', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 71.0.3578.33 (269aa0e3f0db0..., userDataDir: C:\Users\taohuosheng\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64163}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 602445a3c9db8e9475ae920fa843f075
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
+	at web.grabbing.moni_youtube.<init>(moni_youtube.java:82)
+	at web.grabbing.moni_youtube.Seach(moni_youtube.java:539)
+	at main.main_grabbing.doall(main_grabbing.java:265)
+	at main.main_grabbing.main(main_grabbing.java:243)
+
+[INFO]2019-01-04 17:12:41,160 [Err] org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:22.379Z'
+System info: host: 'TAOTAO', ip: '169.254.170.190', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 71.0.3578.33 (269aa0e3f0db0..., userDataDir: C:\Users\taohuosheng\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64163}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 602445a3c9db8e9475ae920fa843f075
+*** Element info: {Using=xpath, value=//*[@id='creator-subheader-item-count']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at web.grabbing.moni_youtube.spfx(moni_youtube.java:280)
+	at web.grabbing.moni_youtube.Seach(moni_youtube.java:540)
+	at main.main_grabbing.doall(main_grabbing.java:265)
+	at main.main_grabbing.main(main_grabbing.java:243)
+
+[INFO]2019-01-04 17:13:54,199 [Err] log创建成功。。。。。
+[INFO]2019-01-04 17:13:54,199 [Err] java.lang.NullPointerException
+	at web.grabbing.moni_miaopai.spfx(moni_miaopai.java:318)
+	at web.grabbing.moni_miaopai.Seach(moni_miaopai.java:405)
+	at main.job_thread.run(job_thread.java:46)
+
+[INFO]2019-01-04 17:14:22,947 [Err] java.lang.NullPointerException
+	at web.grabbing.moni_miaopai.spfx(moni_miaopai.java:318)
+	at web.grabbing.moni_miaopai.Seach(moni_miaopai.java:405)
+	at main.job_thread.run(job_thread.java:46)
+
+[INFO]2019-01-04 17:14:56,331 [Err] java.lang.NullPointerException
+	at web.grabbing.moni_miaopai.spfx(moni_miaopai.java:318)
+	at web.grabbing.moni_miaopai.Seach(moni_miaopai.java:405)
+	at main.job_thread.run(job_thread.java:46)
+
+[INFO]2019-01-04 17:21:20,275 [Err] log创建成功。。。。。
+[INFO]2019-01-04 17:21:20,275 [Err] update tvideo  set iplaynum='11万' where splatform='秒拍' and sname ='一个出奇蛋里居然有5个玩具！超神奇5surprise奇趣蛋拆拆看！'
+[INFO]2019-01-04 17:21:20,275 [Err] 从数据类型 varchar 转换为 bigint 时出错。
+[INFO]2019-01-04 17:21:20,517 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-04','秒拍','一个出奇蛋里居然有5个玩具！超神奇5surprise奇趣蛋拆拆看！','',11万,11万,0)
+[INFO]2019-01-04 17:21:20,517 [Err] '万' 附近有语法错误。
+[INFO]2019-01-04 17:21:21,130 [Err] update tvideo  set iplaynum='10万' where splatform='秒拍' and sname ='1962年的芭比梦想豪宅开箱了！假如小伶住在里面的话？'
+[INFO]2019-01-04 17:21:21,130 [Err] 从数据类型 varchar 转换为 bigint 时出错。
+[INFO]2019-01-04 17:21:21,392 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-04','秒拍','1962年的芭比梦想豪宅开箱了！假如小伶住在里面的话？','',10万,10万,0)
+[INFO]2019-01-04 17:21:21,392 [Err] '万' 附近有语法错误。
+[INFO]2019-01-04 17:21:22,032 [Err] update tvideo  set iplaynum='10万' where splatform='秒拍' and sname ='小伶推理之人鱼公主小伶vs钓鱼王!谁才是赢家？'
+[INFO]2019-01-04 17:21:22,032 [Err] 从数据类型 varchar 转换为 bigint 时出错。
+[INFO]2019-01-04 17:21:22,306 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-04','秒拍','小伶推理之人鱼公主小伶vs钓鱼王!谁才是赢家？','',10万,10万,0)
+[INFO]2019-01-04 17:21:22,306 [Err] '万' 附近有语法错误。
+[INFO]2019-01-04 17:21:32,797 [Err] update tvideo  set iplaynum='10万' where splatform='秒拍' and sname ='幸运转盘随机冰淇淋圣代DIY！谁会中招怪味冰淇淋？'
+[INFO]2019-01-04 17:21:32,797 [Err] 从数据类型 varchar 转换为 bigint 时出错。
+[INFO]2019-01-04 17:21:33,031 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-04','秒拍','幸运转盘随机冰淇淋圣代DIY！谁会中招怪味冰淇淋？','',10万,10万,0)
+[INFO]2019-01-04 17:21:33,031 [Err] '万' 附近有语法错误。
+[INFO]2019-01-04 17:21:33,123 [Err] update tvideo  set iplaynum='11万' where splatform='秒拍' and sname ='小伶推理之一秒穿越到冰雪奇缘世界啦！'
+[INFO]2019-01-04 17:21:33,123 [Err] 从数据类型 varchar 转换为 bigint 时出错。
+[INFO]2019-01-04 17:21:33,370 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-04','秒拍','小伶推理之一秒穿越到冰雪奇缘世界啦！','',11万,11万,0)
+[INFO]2019-01-04 17:21:33,370 [Err] '万' 附近有语法错误。
+[INFO]2019-01-04 17:22:50,255 [Err] update tvideo  set iplaynum='35万' where splatform='秒拍' and sname ='小伶推理之适合悦儿公主的最佳发饰是哪个呢？'
+[INFO]2019-01-04 17:22:50,255 [Err] 从数据类型 varchar 转换为 bigint 时出错。
+[INFO]2019-01-04 17:25:28,140 [Err] log创建成功。。。。。
+[INFO]2019-01-04 17:25:28,140 [Err] update tvideo  set iplaynum='11万' where splatform='秒拍' and sname ='一个出奇蛋里居然有5个玩具！超神奇5surprise奇趣蛋拆拆看！'
+[INFO]2019-01-04 17:25:28,140 [Err] 从数据类型 varchar 转换为 bigint 时出错。
+[INFO]2019-01-04 17:25:29,124 [Err] update tvideo  set iplaynum='10万' where splatform='秒拍' and sname ='1962年的芭比梦想豪宅开箱了！假如小伶住在里面的话？'
+[INFO]2019-01-04 17:25:29,124 [Err] 从数据类型 varchar 转换为 bigint 时出错。
+[INFO]2019-01-04 17:25:29,793 [Err] update tvideo  set iplaynum='10万' where splatform='秒拍' and sname ='小伶推理之人鱼公主小伶vs钓鱼王!谁才是赢家？'
+[INFO]2019-01-04 17:25:29,793 [Err] 从数据类型 varchar 转换为 bigint 时出错。
+[INFO]2019-01-04 17:25:40,712 [Err] update tvideo  set iplaynum='10万' where splatform='秒拍' and sname ='幸运转盘随机冰淇淋圣代DIY！谁会中招怪味冰淇淋？'
+[INFO]2019-01-04 17:25:40,712 [Err] 从数据类型 varchar 转换为 bigint 时出错。
+[INFO]2019-01-04 17:25:40,978 [Err] update tvideo  set iplaynum='11万' where splatform='秒拍' and sname ='小伶推理之一秒穿越到冰雪奇缘世界啦！'
+[INFO]2019-01-04 17:25:40,978 [Err] 从数据类型 varchar 转换为 bigint 时出错。
+[INFO]2019-01-04 17:26:53,993 [Err] update tvideo  set iplaynum='35万' where splatform='秒拍' and sname ='小伶推理之适合悦儿公主的最佳发饰是哪个呢？'
+[INFO]2019-01-04 17:26:53,993 [Err] 从数据类型 varchar 转换为 bigint 时出错。
+[INFO]2019-01-04 17:30:28,810 [Err] update tvideo  set iplaynum='28万' where splatform='秒拍' and sname ='手工DIY超萌手工肥皂！快和小伶一起来洗掉手上的细菌吧！'
+[INFO]2019-01-04 17:30:28,811 [Err] 从数据类型 varchar 转换为 bigint 时出错。
+[INFO]2019-01-04 17:31:06,489 [Err] java.lang.NullPointerException
+	at web.grabbing.moni_miaopai.spfx(moni_miaopai.java:302)
+	at web.grabbing.moni_miaopai.Seach(moni_miaopai.java:405)
+	at main.job_thread.run(job_thread.java:46)
+

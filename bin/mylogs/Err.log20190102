@@ -1,0 +1,72 @@
+[INFO]2019-01-02 15:11:30,558 [Err] log创建成功。。。。。
+[INFO]2019-01-02 15:11:30,560 [Err] java.lang.NullPointerException
+	at web.grabbing.moni_youtube.spfx(moni_youtube.java:297)
+	at web.grabbing.moni_youtube.main(moni_youtube.java:390)
+
+[INFO]2019-01-02 15:47:12,295 [Err] log创建成功。。。。。
+[INFO]2019-01-02 15:47:12,295 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-02','YouTube','2018小伶年度金曲榜單！一起回顧2018的人氣歌謠吧！小伶玩具 | Xiaoling toys','',34671,34671,1,208)
+[INFO]2019-01-02 15:47:12,295 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-02 15:47:14,080 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-02','YouTube','狗狗上幼兒園了？汪星人也逃不過升學壓力！小伶玩具 | Xiaoling toys','',151959,151959,1,445)
+[INFO]2019-01-02 15:47:14,081 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-02 15:47:14,997 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-02','YouTube','超夢幻的校園食堂午餐搭配！幸運轉盤美食拼盤！小伶玩具 | Xiaoling toys','',146779,146779,1,797)
+[INFO]2019-01-02 15:47:14,997 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-02 15:47:15,340 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-02','YouTube','心電感應奶昔制作挑戰賽！到底能不能做出一樣的奶昔呢？小伶玩具 | Xiaoling toys','',138484,138484,1,402)
+[INFO]2019-01-02 15:47:15,340 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-02 15:47:16,270 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-02','YouTube','粘土裝飾DIY咖啡廳！幸運旋轉轉盤做出最美粘土吧！ | Xiaoling toys','',198283,198283,2,456)
+[INFO]2019-01-02 15:47:16,270 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-02 15:47:19,265 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-02','YouTube','自制超大小伶玩具版洞洞樂啦！內含秘密任務一起來完成吧！小伶玩具 | Xiaoling toys','',115066,115066,1,417)
+[INFO]2019-01-02 15:47:19,265 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-02 15:49:26,292 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-02','YouTube','2018小伶年度金曲榜單！一起回顧2018的人氣歌謠吧！小伶玩具 | Xiaoling toys','',34671,34671,1,208)
+[INFO]2019-01-02 15:49:26,293 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-02 15:49:27,542 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-02','YouTube','狗狗上幼兒園了？汪星人也逃不過升學壓力！小伶玩具 | Xiaoling toys','',151959,151959,1,445)
+[INFO]2019-01-02 15:49:27,542 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-02 15:49:28,183 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-02','YouTube','超夢幻的校園食堂午餐搭配！幸運轉盤美食拼盤！小伶玩具 | Xiaoling toys','',146779,146779,1,797)
+[INFO]2019-01-02 15:49:28,183 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-02 15:49:28,464 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-02','YouTube','心電感應奶昔制作挑戰賽！到底能不能做出一樣的奶昔呢？小伶玩具 | Xiaoling toys','',138484,138484,1,402)
+[INFO]2019-01-02 15:49:28,464 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-02 15:49:29,098 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-02','YouTube','粘土裝飾DIY咖啡廳！幸運旋轉轉盤做出最美粘土吧！ | Xiaoling toys','',198283,198283,2,456)
+[INFO]2019-01-02 15:49:29,098 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-02 15:49:31,054 [Err] insert into tvideolog(dtinsert,splatform,sname,snum,iplaynum,iaddnum,icollection)values('2019-01-02','YouTube','自制超大小伶玩具版洞洞樂啦！內含秘密任務一起來完成吧！小伶玩具 | Xiaoling toys','',115066,115066,1,417)
+[INFO]2019-01-02 15:49:31,054 [Err] INSERT 语句中列的数目小于 VALUES 子句中指定的值的数目。VALUES 子句中值的数目必须与 INSERT 语句中指定的列的数目匹配。
+[INFO]2019-01-02 16:25:55,921 [Err] log创建成功。。。。。
+[INFO]2019-01-02 16:25:55,922 [Err] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:56:06.3Z'
+System info: host: 'TAOTAO', ip: '169.254.170.190', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
+	at web.grabbing.moni_youtube.<init>(moni_youtube.java:82)
+	at web.grabbing.moni_youtube.main(moni_youtube.java:484)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at okio.Okio$2.read(Okio.java:139)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:237)
+	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:345)
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:217)
+	at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:212)
+	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:97)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:47)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:157)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	... 4 more
+

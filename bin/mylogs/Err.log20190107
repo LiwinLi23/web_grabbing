@@ -1,0 +1,101 @@
+[INFO]2019-01-07 10:22:27,240 [Err] log创建成功。。。。。
+[INFO]2019-01-07 10:22:27,247 [Err] org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:22.379Z'
+System info: host: 'TAOTAO', ip: '169.254.170.190', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 71.0.3578.33 (269aa0e3f0db0..., userDataDir: C:\Users\taohuosheng\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54619}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: a63fcd27c6fbe0be6f997df37e2bee0a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at web.grabbing.moni_aiqiyi1.spfx(moni_aiqiyi1.java:231)
+	at web.grabbing.moni_aiqiyi1.main(Unknown Source)
+
+[INFO]2019-01-07 10:25:39,038 [Err] log创建成功。。。。。
+[INFO]2019-01-07 10:25:39,039 [Err] org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:22.379Z'
+System info: host: 'TAOTAO', ip: '169.254.170.190', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 71.0.3578.33 (269aa0e3f0db0..., userDataDir: C:\Users\taohuosheng\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55422}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 519264f442c64a98fc43e6983e7f4ab9
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:128)
+	at web.grabbing.moni_aiqiyi1.spfx(moni_aiqiyi1.java:225)
+	at web.grabbing.moni_aiqiyi1.main(moni_aiqiyi1.java:441)
+
+[INFO]2019-01-07 10:27:27,802 [Err] log创建成功。。。。。
+[INFO]2019-01-07 10:27:27,803 [Err] org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:22.379Z'
+System info: host: 'TAOTAO', ip: '169.254.170.190', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 71.0.3578.33 (269aa0e3f0db0..., userDataDir: C:\Users\taohuosheng\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55509}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 99f4693a3ac8f4d48165ab98e152d0af
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:128)
+	at web.grabbing.moni_aiqiyi1.spfx(moni_aiqiyi1.java:225)
+	at web.grabbing.moni_aiqiyi1.main(moni_aiqiyi1.java:441)
+
+[INFO]2019-01-07 17:25:07,932 [Err] log创建成功。。。。。
+[INFO]2019-01-07 17:25:07,932 [Err] java.lang.ClassCastException: java.lang.Long cannot be cast to java.lang.String
+	at web.grabbing.moni_youtube.spfx(moni_youtube.java:347)
+	at web.grabbing.moni_youtube.main(Unknown Source)
+
+[INFO]2019-01-07 18:00:17,970 [Err] log创建成功。。。。。
+[INFO]2019-01-07 18:00:17,998 [Err] insert into tFansLog(dtinsert,splatform,inum,imoney,iaddnum,iaddmoney,icollection)values('“订阅内容”Feed','YouTube',519474,0,-285,0,0)
+[INFO]2019-01-07 18:00:18,000 [Err] 从字符串转换日期和/或时间时，转换失败。
+[INFO]2019-01-07 18:02:07,490 [Err] log创建成功。。。。。
+[INFO]2019-01-07 18:02:07,491 [Err] insert into tFansLog(dtinsert,splatform,inum,imoney,iaddnum,iaddmoney,icollection)values('“订阅内容”Feed','YouTube',519478,0,-285,0,0)
+[INFO]2019-01-07 18:02:07,492 [Err] 从字符串转换日期和/或时间时，转换失败。
+[INFO]2019-01-07 18:06:16,235 [Err] log创建成功。。。。。
+[INFO]2019-01-07 18:06:16,236 [Err] insert into tFansLog(dtinsert,splatform,inum,imoney,iaddnum,iaddmoney,icollection)values('“订阅内容”Feed','YouTube',519480,0,-285,0,0)
+[INFO]2019-01-07 18:06:16,237 [Err] 从字符串转换日期和/或时间时，转换失败。
+[INFO]2019-01-07 18:07:24,013 [Err] log创建成功。。。。。
+[INFO]2019-01-07 18:07:24,013 [Err] insert into tFansLog(dtinsert,splatform,inum,imoney,iaddnum,iaddmoney,icollection)values('“订阅内容”Feed','YouTube',519480,0,-285,0,0)
+[INFO]2019-01-07 18:07:24,014 [Err] 从字符串转换日期和/或时间时，转换失败。

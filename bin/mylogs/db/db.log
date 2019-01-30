@@ -1,0 +1,3 @@
+[INFO]2019-01-11 16:26:24,211 [db] log创建成功。。。。。
+[ERROR]2019-01-11 16:26:24,213 [db] select sum(iplaynum) as iplaynum from tvideolog where splatform='美拍' and sday='2019-01-09'
+[ERROR]2019-01-11 16:26:24,213 [db] 列名 'sday' 无效。

@@ -1,0 +1,5 @@
+[INFO]2019-01-03 13:47:05,406 [db] log创建成功。。。。。
+[ERROR]2019-01-03 13:47:05,406 [db] select top 1 * from tvideolog where splatform='YouTube' and sname='秋季露營美食之烤棉花糖夾心餅乾S'MORE！創意美食料理DIY又來了！小伶玩具 | Xiaoling toys'and  convert(VARCHAR(10),dtinsert,120) <>'2019-01-03' order by dtinsert desc
+[ERROR]2019-01-03 13:47:05,406 [db] 'MORE' 附近有语法错误。
+[ERROR]2019-01-03 13:47:05,497 [db] select * from tvideolog where sname='秋季露營美食之烤棉花糖夾心餅乾S'MORE！創意美食料理DIY又來了！小伶玩具 | Xiaoling toys'and  convert(VARCHAR(10),dtinsert,120) ='2019-01-03' and splatform='YouTube'
+[ERROR]2019-01-03 13:47:05,497 [db] 'MORE' 附近有语法错误。

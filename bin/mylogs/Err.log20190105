@@ -1,0 +1,5 @@
+[INFO]2019-01-05 12:10:08,231 [Err] log创建成功。。。。。
+[INFO]2019-01-05 12:10:08,234 [Err] java.lang.NullPointerException
+	at web.grabbing.get_meipai.spfxbyhttpurl(get_meipai.java:131)
+	at main.job_thread.run(job_thread.java:42)
+

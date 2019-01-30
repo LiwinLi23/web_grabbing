@@ -1,0 +1,97 @@
+[INFO]2019-01-22 09:46:26,571 [Err] log创建成功。。。。。
+[INFO]2019-01-22 09:46:26,573 [Err] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"下一页"}
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:22.379Z'
+System info: host: 'TAOTAO', ip: '169.254.170.190', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 71.0.3578.33 (269aa0e3f0db0..., userDataDir: C:\Users\taohuosheng\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:29695}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 7778f9326a58e5b5ca1abc8caf17cdda
+*** Element info: {Using=link text, value=下一页}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:425)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at web.grabbing.moni_douyin.spfx(moni_douyin.java:357)
+	at web.grabbing.moni_douyin.main(moni_douyin.java:471)
+
+[INFO]2019-01-22 15:24:01,892 [Err] log创建成功。。。。。
+[INFO]2019-01-22 15:24:01,892 [Err] update tvideo  set iplaynum='2000000',dtadd='视频ID:123636547' where splatform='爱奇艺' and sname ='神奇的人鱼公主冰淇淋！帮助人鱼公主小伶回到海洋世界吧！'
+[INFO]2019-01-22 15:24:01,892 [Err] 从字符串转换日期和/或时间时，转换失败。
+[INFO]2019-01-22 15:24:07,123 [Err] update tvideo  set iplaynum='720000',dtadd='视频ID:123193129' where splatform='爱奇艺' and sname ='新年之你画我猜！成语接龙猜猜看！'
+[INFO]2019-01-22 15:24:07,123 [Err] 从字符串转换日期和/或时间时，转换失败。
+[INFO]2019-01-22 15:24:12,349 [Err] update tvideo  set iplaynum='970000',dtadd='视频ID:122765931' where splatform='爱奇艺' and sname ='世界上最小的游戏系列！超迷你游戏机真的可以玩！'
+[INFO]2019-01-22 15:24:12,350 [Err] 从字符串转换日期和/或时间时，转换失败。
+[INFO]2019-01-22 16:57:02,238 [Err] log创建成功。。。。。
+[INFO]2019-01-22 16:57:02,240 [Err] org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: crashed
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files (x86)\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+  (Driver info: chromedriver=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 870 milliseconds
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:22.379Z'
+System info: host: 'TAOTAO', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: driver.version: ChromeDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:138)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at web.grabbing.moni_aiqiyi1.<init>(moni_aiqiyi1.java:48)
+	at web.grabbing.moni_aiqiyi1.Seach(moni_aiqiyi1.java:546)
+	at main.job_thread.run(job_thread.java:35)
+
+[INFO]2019-01-22 16:57:26,515 [Err] update tvideo  set iplaynum='1020000',dtadd='视频ID:123710556' where splatform='爱奇艺' and sname ='可以变色的笔记本？！DIY苏菲亚公主魔幻减压笔记本'
+[INFO]2019-01-22 16:57:26,521 [Err] 从字符串转换日期和/或时间时，转换失败。
+[INFO]2019-01-22 16:57:31,175 [Err] update tvideo  set iplaynum='1490000',dtadd='视频ID:123201841' where splatform='爱奇艺' and sname ='2018小伶年度金曲榜单！一起回顾2018的人气歌谣吧！'
+[INFO]2019-01-22 16:57:31,175 [Err] 从字符串转换日期和/或时间时，转换失败。
+[INFO]2019-01-22 16:57:40,689 [Err] update tvideo  set iplaynum='1370000',dtadd='视频ID:122798550' where splatform='爱奇艺' and sname ='挑战10分钟做出超美味的圣诞美食咯！'
+[INFO]2019-01-22 16:57:40,689 [Err] 从字符串转换日期和/或时间时，转换失败。
+[INFO]2019-01-22 16:57:50,196 [Err] update tvideo  set iplaynum='570000',dtadd='视频ID:122312408' where splatform='爱奇艺' and sname ='小伶玩具圣诞神秘礼包！伶可家族为你揭晓！'
+[INFO]2019-01-22 16:57:50,196 [Err] 从字符串转换日期和/或时间时，转换失败。
+[INFO]2019-01-22 16:57:59,781 [Err] update tvideo  set iplaynum='2490000',dtadd='视频ID:121924994' where splatform='爱奇艺' and sname ='最佳发型师比赛！谁做的发型是宇宙最美？'
+[INFO]2019-01-22 16:57:59,782 [Err] 从字符串转换日期和/或时间时，转换失败。
+[INFO]2019-01-22 16:58:09,276 [Err] update tvideo  set iplaynum='2680000',dtadd='视频ID:121614949' where splatform='爱奇艺' and sname ='夏坤姐弟之姐姐的减肥决心！到底能不能成功呢？'
+[INFO]2019-01-22 16:58:09,276 [Err] 从字符串转换日期和/或时间时，转换失败。
+[INFO]2019-01-22 16:58:18,806 [Err] update tvideo  set iplaynum='1060000',dtadd='视频ID:121170505' where splatform='爱奇艺' and sname ='超美LOL惊喜娃娃旗舰店人偶收纳盒！一起完成各种任务吧！'
+[INFO]2019-01-22 16:58:18,806 [Err] 从字符串转换日期和/或时间时，转换失败。
+[INFO]2019-01-22 16:58:27,190 [Err] update tvideo  set iplaynum='280000',dtadd='视频ID:120911156' where splatform='爱奇艺' and sname ='小伶英语神秘国家之小伶之旅结束啦！'
+[INFO]2019-01-22 16:58:27,190 [Err] 从字符串转换日期和/或时间时，转换失败。
+[INFO]2019-01-22 16:58:36,330 [Err] update tvideo  set iplaynum='4290000',dtadd='视频ID:120362557' where splatform='爱奇艺' and sname ='三色挑战之最美校服搭配挑战啦！小伶悦儿谁的搭配最美呢？'
+[INFO]2019-01-22 16:58:36,330 [Err] 从字符串转换日期和/或时间时，转换失败。
